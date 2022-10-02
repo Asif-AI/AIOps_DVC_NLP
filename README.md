@@ -1,6 +1,8 @@
 # dvc-NLP-usecase
 DVC NLP project
 
+## Reference Repository -
+[official reference repository](https://github.com/iterative/example-get-started)
 ## STEPS -
 
 ### STEP 01- Create a repository by using template repository
@@ -9,6 +11,10 @@ DVC NLP project
 
 ### STEP 03- Create a conda environment after opening the repository in VSCODE
 
+### one shot create and activate processEnvironments
+```bash
+condad create --prefix ./env python=3.7 -y && source activate ./env
+```
 ```bash
 conda create --prefix ./env python=3.7 -y
 ```
